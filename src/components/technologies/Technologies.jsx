@@ -2,8 +2,8 @@ import './technologies.css'
 
 export default function Technologies() {
     return (
-        <div>
-            
+        <div className="t">
+            technologies
         </div>
     )
 }
