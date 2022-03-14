@@ -1,24 +1,21 @@
 import './intro.css'
-import Me from '../../images/pp1.png'
-import {professions} from '../../professions'
-export default function Intro() {
+import pp1 from '../../images/pp1.png'
+export default function Intro({ professions, name, intro }) {
     return (
         <div className="i">
             <div className="i-left">
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">Hello, my name is</h2>
-                    <h1 className="i-name">Mohamed Allam</h1>
+                    <h1 className="i-name">{name}</h1>
                     <div className="i-title">
                         <div className="i-title-wrapper">
-                            {professions.map((profession)=>(
+                            {professions.map((profession) => (
                                 <div className="i-title-item">{profession}</div>
                             ))}
                         </div>
                     </div>
                     <p className="-desc">
-                        My name is Mohamed Allam, I am a Web Developer with experience in code
-                        for over 4 years. I have designed and developed a large set of applications
-                        on several platforms and frameworks.
+                        {intro}
                     </p>
                 </div>
                 {/* SVG Start */}
@@ -82,7 +79,7 @@ export default function Intro() {
             </div>
             <div className="i-right">
                 <div className="i-bg"></div>
-                <img src={Me} alt="" className="i-img" />
+                <img src={pp1} alt="" className="i-img" />
             </div>
         </div>
     )
