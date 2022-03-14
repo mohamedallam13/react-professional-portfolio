@@ -28,23 +28,23 @@ export const allInfo = {
             img: 'esmt.png'
         }
     ],
-    portfolioDesc: "",
+    portfolioDesc: "With my wide skill set I can create any application that you might need for your business or your organization. I can also provide technical consultation.",
     devProjects: [
         {
             id: 1,
-            projectName: "",
+            projectName: "Pack-On-Track",
             projectImage: "",
             projectLink: ""
         },
         {
             id: 2,
-            projectName: "",
+            projectName: "Professionals Portal",
             projectImage: "",
             projectLink: ""
         },
         {
             id: 3,
-            projectName: "",
+            projectName: "E-Commerce Backend",
             projectImage: "",
             projectLink: ""
         }
