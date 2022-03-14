@@ -23,7 +23,7 @@ function App() {
         <Portfolio portfolioDesc={allInfo.portfolioDesc}
           devProjects={allInfo.devProjects} />
         <Technologies />
-        <Contact />
+        <Contact contacts={allInfo.contacts} />
       </div>
     </div>
   );

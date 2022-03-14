@@ -51,5 +51,25 @@ export const allInfo = {
     ],
     technologies: [
 
+    ],
+    contacts: [
+        {
+            type: "phone",
+            img: "telephone.jpeg",
+            text: "+49 170 4093 988",
+            hyperlink: "tel:+491704093988"
+        },
+        {
+            type: "email",
+            img: "mail.png",
+            text: "mohamedallam.tu@gmail.com",
+            hyperlink: "mailto:mohamedallam.tu@gmail.com"
+        },
+        {
+            type: "github",
+            img: "github.png",
+            text: "https://github.com/mohamedallam13",
+            hyperlink: "https://github.com/mohamedallam13"
+        }
     ]
 }
