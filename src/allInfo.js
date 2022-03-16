@@ -50,7 +50,54 @@ export const allInfo = {
         }
     ],
     technologies: [
-
+        {
+            title: "JS6",
+            img: "js.png"
+        },
+        {
+            title: "HTML5",
+            img: "html5.png"
+        },
+        {
+            title: "CSS3",
+            img: "CSS3.png"
+        },
+        {
+            title: "NodeJS",
+            img: "nodejs.png"
+        },
+        {
+            title: "ReactJS",
+            img: "react.png"
+        },
+        {
+            title: "MySQL",
+            img: "mysql.png"
+        },
+        {
+            title: "MongoDB",
+            img: "mongodb.png"
+        },
+        {
+            title: "GQL",
+            img: "gql.png"
+        },
+        {
+            title: "Google Cloud Platform",
+            img: "gcp.png"
+        },
+        {
+            title: "Google Apps Script",
+            img: "gas.png"
+        },
+        {
+            title: "GSuite",
+            img: "gsuite.png"
+        },
+        {
+            title: "Oracle",
+            img: "oracle.png"
+        },
     ],
     contacts: [
         {
@@ -70,6 +117,18 @@ export const allInfo = {
             img: "github.png",
             text: "https://github.com/mohamedallam13",
             hyperlink: "https://github.com/mohamedallam13"
+        },
+        {
+            type: "linkedin",
+            img: "linkedin.png",
+            text: "LinkedIn",
+            hyperlink: "https://www.linkedin.com/in/mohamedhassanallam/" 
+        },
+        {
+            type: "resume",
+            img: "cv.png",
+            text: "Resume",
+            hyperlink: "https://drive.google.com/file/d/1-v1ugVKR02TGnusrZaU-TOxLEFd6xUNL/view?usp=sharing"
         }
     ]
 }

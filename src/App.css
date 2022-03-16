@@ -17,6 +17,6 @@
 
 .app .pages>* {
   width: 100%;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 70px - 75px);
   scroll-snap-align: start;
 }

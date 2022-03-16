@@ -1,3 +1,51 @@
-.t{
-    background-color: lightsteelblue;
+.t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.t-texts {
+    width: 65%;
+}
+
+.t-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.t-desc {
+    margin: 20px 0px;
+}
+
+.t-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.t-card {
+    margin: 20px 10px;
+    width: 15vw;
+    height: 15vh;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px;
+    background-color: rgb(252, 220, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-card-title {
+    margin-right: 5%;
+    overflow: hidden;
+}
+
+.t-card-img {
+    height: 95%;
+    width: auto;
+    object-fit: cover;
 }
