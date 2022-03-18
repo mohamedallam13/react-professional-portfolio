@@ -3,7 +3,7 @@ import './portfolio.css'
 
 export default function Portfolio({ portfolioDesc, devProjects }) {
   return (
-    <div className="p">
+    <div className="p" id="p">
       <div className="p-texts">
         <h1 className="p-title">Turn Dreams into Reality</h1>
         <p className="p-desc">

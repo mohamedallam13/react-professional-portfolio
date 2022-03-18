@@ -2,7 +2,7 @@ import './intro.css'
 import pp1 from '../../images/pp1.png'
 export default function Intro({ professions, name, intro }) {
     return (
-        <div className="i">
+        <div className="i" id="i">
             <div className="i-left">
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">Hello, my name is</h2>

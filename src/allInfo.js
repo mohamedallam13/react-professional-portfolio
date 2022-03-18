@@ -10,7 +10,12 @@ export const allInfo = {
         'Designer',
     ],
     aboutCatch: "My journey is long and encompasses various fields from Engineering to Tech.",
-    aboutParagraph: "I received my Bachelor degree from the American University in Cairo in Mechanical Engineering and a Minor in Business Administration with High Honors. I continued to pursue further education; receiving a Master of Science fromt TU Berlin in Solar Energy. 3 years of experience in the field later, I switched career to cope with the current direction towards Tech. Since 2019 I've been working as a Full-Time developer in Berlin. I have also managed to complete a Full Stack Developer Bootcamp with ESMT Berlin and seek to find opportunities that will help me grow even further.",
+    aboutParagraph: "I received my BSc. degree from the American University in Cairo in Mech Engineering & Minor in Business Admin with High Honors." +
+        "Afterwards, I pursued and then received an MSc. from TU Berlin in Solar Energy Engineering. " +
+        "3 years of experience in the field later, I switched career to cope with the current " +
+        "direction towards Tech. Since 2019 I've been working as a Full-Time developer in Berlin." +
+        "I have also managed to complete a Full Stack Developer Bootcamp with ESMT Berlin" +
+        "and seek to find opportunities that will help me grow even further.",
     education: [
         {
             institution: "the American University in Cairo",
@@ -122,7 +127,7 @@ export const allInfo = {
             type: "linkedin",
             img: "linkedin.png",
             text: "LinkedIn",
-            hyperlink: "https://www.linkedin.com/in/mohamedhassanallam/" 
+            hyperlink: "https://www.linkedin.com/in/mohamedhassanallam/"
         },
         {
             type: "resume",

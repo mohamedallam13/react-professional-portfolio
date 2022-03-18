@@ -3,7 +3,7 @@ import pp2 from '../../images/pp2.JPG'
 
 export default function About({ education, aboutCatch, aboutParagraph }) {
     return (
-        <div className="a">
+        <div className="a" id="a">
             <div className="a-left">
                 <div className="a-card bg"></div>
                 <div className="a-card">

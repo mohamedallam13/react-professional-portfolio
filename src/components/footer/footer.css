@@ -7,8 +7,9 @@
     overflow: hidden;
 }
 
-.f img{
- width: 100%;
- background-color: white;
- overflow: hidden;
+.f img {
+    width: 100%;
+    background-color: white;
+    object-fit: cover;
+    overflow: hidden;
 }

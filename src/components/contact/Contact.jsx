@@ -9,7 +9,7 @@ export default function Contact({ contacts }) {
 
 
     return (
-        <div className="ct">
+        <div className="ct" id="ct">
             <div className="ct-bg"></div>
             <div className="ct-wrapper">
                 <div className="ct-left">

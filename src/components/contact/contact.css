@@ -8,11 +8,11 @@
     height: 80%;
     background-color: midnightblue;
     position: absolute;
-    top: 50px;
+    top: 0px;
 }
 
 .ct-wrapper {
-    padding: 50px;
+    padding-left: 50px;
     display: flex;
 }
 
