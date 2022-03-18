@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import { ThemeProvider } from './context';
 
+const scrollDetect = () => {
+
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>

@@ -1,7 +1,7 @@
 export const allInfo = {
     name: 'Mohamed Allam',
     dateOfBirth: "",
-    intro: "My name is Mohamed Allam, I am a Full Stack Developer with over 4 years experience in coding. I have designed and developed a large set of applications on several platforms and frameworks",
+    intro: "I am a Full Stack Developer with over 4 years experience in coding. I have designed and developed a large set of applications on several platforms and frameworks",
     professions: [
         'Full Stack Developer',
         'Google Apps Engineer',
@@ -14,7 +14,7 @@ export const allInfo = {
         "Afterwards, I pursued and then received an MSc. from TU Berlin in Solar Energy Engineering. " +
         "3 years of experience in the field later, I switched career to cope with the current " +
         "direction towards Tech. Since 2019 I've been working as a Full-Time developer in Berlin." +
-        "I have also managed to complete a Full Stack Developer Bootcamp with ESMT Berlin" +
+        "I have also managed to complete a Full Stack Developer Bootcamp with ESMT Berlin " +
         "and seek to find opportunities that will help me grow even further.",
     education: [
         {

@@ -20,6 +20,8 @@ function App() {
   const outrun = theme.state.outrun;
   const [menuOpen, setMenuOpen] = useState(false)
 
+
+
   return (
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>

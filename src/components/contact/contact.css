@@ -53,6 +53,7 @@
 
 form {
     margin-top: 20px;
+    padding-right: 50px;
 }
 
 input {
@@ -84,6 +85,10 @@ button {
 @media screen and (max-width: 480px) {
     .ct-wrapper {
         flex-direction: column;
+        padding: 0px;
+    }
+
+    .ct-left {
         padding: 0px 50px;
     }
 
@@ -96,28 +101,31 @@ button {
         width: 100%;
     }
 
-    .ct-info-item a {
-        text-decoration: none;
-    }
-
     .ct-desc {
         display: none;
     }
 
     form {
+        width: 80%;
         margin-top: 0px;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
 
     input {
-        width: 35%;
+        width: 90%;
         height: 40px;
         margin: 10px;
         margin-left: 0;
     }
 
+    textarea {
+        width: 90%;
+    }
+
     button {
+        width: 90%;
         margin-top: 10px;
     }
 }
