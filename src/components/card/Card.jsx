@@ -1,6 +1,8 @@
 import './card.css'
 
 export default function Card({ title, img, link }) {
+    console.log(img=="")
+
     return (
         <div className="c">
             <div className="c-browser">
@@ -15,7 +17,7 @@ export default function Card({ title, img, link }) {
             </div>
 
             <a href={link} target="_blank">
-                <img src="" alt="" className="c-img" />
+                <img src={require("../../images/" + img)} alt="" className="c-img" />
             </a>
         </div>
     );

@@ -30,8 +30,8 @@ function App() {
         "--sub-font-color": outrun? "#F6019D" : "midnightblue",
         "--main-font-color": outrun? "white" : "black",
         "--main-tech-card-color": outrun? "#F9C80E" : "rgb(252, 220, 226)",
-        "--head-browser-color": outrun? "#333" : "rgb(243, 242, 242)"
-
+        "--head-browser-color": outrun? "#333" : "rgb(243, 242, 242)",
+        "--toggle-button-color": outrun? "#541388" : "turquoise"
       }}
     >
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />

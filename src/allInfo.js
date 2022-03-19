@@ -50,8 +50,8 @@ export const allInfo = {
         {
             id: 3,
             projectName: "WithU Platfrom",
-            projectImage: "",
-            projectLink: ""
+            projectImage: "withU.png",
+            projectLink: "https://github.com/Amir-Fard2025/WithU"
         }
     ],
     technologies: [

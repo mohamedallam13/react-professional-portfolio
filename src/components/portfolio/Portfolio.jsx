@@ -12,7 +12,10 @@ export default function Portfolio({ portfolioDesc, devProjects }) {
       </div>
       <div className="p-list">
         {devProjects.map((project) => (
-          <Card key={project.id} title={project.projectName} img={project.projectImage} link={project.projectLink} />
+          <Card key={project.id}
+            title={project.projectName}
+            img={project.projectImage}
+            link={project.projectLink} />
         ))}
       </div>
     </div>

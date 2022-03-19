@@ -16,7 +16,9 @@ export default function Toggle() {
             <div
                 className="tg-button"
                 onClick={handleClick}
-                style={{ left: theme.state.outrun ? 32 : 0 }}
+                style={{
+                    left: theme.state.outrun ? 32 : 0,
+                }}
             ></div>
         </div>
     )
