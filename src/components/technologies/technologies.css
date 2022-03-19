@@ -34,9 +34,9 @@
     margin: 20px 10px;
     height: 13vw;
     width: 13vw;
-    border: 2px solid rgb(243, 242, 242);
+    border: 2px solid var(--head-browser-color);
     border-radius: 10px;
-    background-color: rgb(252, 220, 226);
+    background-color: var(--main-tech-card-color);
     display: flex;
     flex-direction: column;
     align-items: center;

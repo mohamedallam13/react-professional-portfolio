@@ -1,4 +1,7 @@
 import './contact.css'
+import { ThemeContext } from "../../context";
+import { useContext } from "react";
+
 const darkMode = false
 const done = 'done'
 const handleSubmit = () => {
@@ -6,7 +9,8 @@ const handleSubmit = () => {
 }
 
 export default function Contact({ contacts }) {
-
+    const theme = useContext(ThemeContext);
+    const outrun = theme.state.outrun;
 
     return (
         <div className="ct" id="ct">
@@ -29,10 +33,10 @@ export default function Contact({ contacts }) {
                         freelancing if the right project comes along. me.
                     </p>
                     <form >
-                        <input type="text" placeholder="Name" name="user_name" />
-                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject" />
-                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Email" name="user_email" />
-                        <textarea style={{ backgroundColor: darkMode && "#333" }} rows="5" placeholder="Message" name="message" />
+                        <input style={{ backgroundColor: outrun && "#333" }} type="text" placeholder="Name" name="user_name" />
+                        <input style={{ backgroundColor: outrun && "#333" }} type="text" placeholder="Subject" name="user_subject" />
+                        <input style={{ backgroundColor: outrun && "#333" }} type="text" placeholder="Email" name="user_email" />
+                        <textarea style={{ backgroundColor: outrun && "#333" }} rows="5" placeholder="Message" name="message" />
                         <button>Submit</button>
                         {/* {done && "Thank you..."} */}
                     </form>

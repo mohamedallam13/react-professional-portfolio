@@ -31,7 +31,7 @@
 
 .a-card.bg {
     position: absolute;
-    background-color: midnightblue;
+    background-color: var(--sub-font-color);
     overflow: hidden;
 
 }

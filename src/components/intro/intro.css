@@ -1,7 +1,3 @@
-:root {
-    --special-green: #59b256
-}
-
 .i {
     display: flex;
     height: 100vh;
@@ -83,7 +79,7 @@
     font-size: 25px;
     font-style: 30px;
     font-weight: bold;
-    color: midnightblue;
+    color: var(--sub-font-color);
     display: flex;
     align-items: center;
 }
@@ -105,12 +101,29 @@
 
 .i-bg {
     border-radius: 50%;
-    background-color: midnightblue;
+    /* background-color: midnightblue; */
+    /* background-image: url(../../images/outrun-sun.png);
+    background-repeat: no-repeat;
+    background-size: cover;  */
     width: 100%;
     padding-top: 100%;
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.outrun-sun {
+    background-image: url(../../images/outrun-sun.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s ease;
+
+}
+
+.vapour-sun {
+    background-color: var(--sub-font-color);
+    transition: all 1s ease;
+
 }
 
 @media screen and (max-width: 984px) {

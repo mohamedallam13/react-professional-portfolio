@@ -1,6 +1,13 @@
 import './intro.css'
 import pp1 from '../../images/pp1.png'
+
+import { ThemeContext } from "../../context";
+import { useContext } from "react";
+
 export default function Intro({ professions, name, intro }) {
+    const theme = useContext(ThemeContext);
+    const outrun = theme.state.outrun;
+
     return (
         <div className="i" id="i">
             <div className="i-left">
@@ -78,7 +85,7 @@ export default function Intro({ professions, name, intro }) {
                 {/* SVG End */}
             </div>
             <div className="i-right">
-                <div className="i-bg"></div>
+                <div className={"i-bg" + (outrun? " outrun-sun" : " vapour-sun") } ></div>
                 <img src={pp1} alt="" className="i-img" />
             </div>
         </div>

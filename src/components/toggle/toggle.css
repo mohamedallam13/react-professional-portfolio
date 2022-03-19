@@ -2,11 +2,11 @@
     width: 64px;
     height: 32px;
     border-radius: 32px;
-    border: 1pz solid #999;
+    border: 1px solid #999;
     background-color: white;
     position: fixed;
-    top: 17px;
-    right: 100px;
+    top: 20px;
+    left: 50px;
     z-index: 999;
     display: flex;
     align-items: center;
@@ -19,8 +19,8 @@
 }
 
 .tg-button{
-    width: 25px;
-    height: 25px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     background-color: #999;
     position: absolute;

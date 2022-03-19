@@ -1,6 +1,13 @@
 import "./menu.css";
+import { ThemeContext } from "../../context";
+import { useContext } from "react";
+
+
 
 export default function Menu({ menuOpen, setMenuOpen }) {
+    const theme = useContext(ThemeContext);
+    const outrun = theme.state.outrun;
+
     return (
         <div className={"menu " + (menuOpen && "menu-active")}>
             <ul>

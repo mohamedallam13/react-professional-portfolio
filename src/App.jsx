@@ -23,9 +23,19 @@ function App() {
 
 
   return (
-    <div className="app">
-      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+    <div className="app"
+      style={{
+
+        "--nav-bar-color": outrun?  "#920075" : "lightskyblue",
+        "--sub-font-color": outrun? "#F6019D" : "midnightblue",
+        "--main-font-color": outrun? "white" : "black",
+        "--main-tech-card-color": outrun? "#F9C80E" : "rgb(252, 220, 226)",
+        "--head-browser-color": outrun? "#333" : "rgb(243, 242, 242)"
+
+      }}
+    >
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Toggle />
       <div className="pages"
         style={{

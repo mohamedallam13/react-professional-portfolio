@@ -6,7 +6,7 @@
 .ct-bg {
     width: 20px;
     height: 80%;
-    background-color: midnightblue;
+    background-color: var(--sub-font-color);
     position: absolute;
     top: 0px;
 }
@@ -45,6 +45,8 @@
     width: 50px;
     height: 100%;
     margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .ct-desc {
@@ -76,7 +78,7 @@ textarea {
 button {
     border: none;
     padding: 15px;
-    background-color: midnightblue;
+    background-color: var(--sub-font-color);
     color: white;
     font-weight: 500;
     cursor: pointer;

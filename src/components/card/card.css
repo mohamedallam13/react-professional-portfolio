@@ -2,14 +2,14 @@
     width: 30%;
     height: 40vh;
     margin: 20px 10px;
-    border: 2px solid rgb(243, 242, 242);
+    border: 2px solid var(--head-browser-color);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
 }
 
 .c-browser {
     height: 20px;
-    background-color: rgb(243, 242, 242);
+    background-color: var(--head-browser-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
