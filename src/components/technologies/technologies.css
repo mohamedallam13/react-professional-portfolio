@@ -27,7 +27,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     flex-shrink: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .t-card {

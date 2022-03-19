@@ -22,6 +22,8 @@
 .c-circles {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
+
 }
 
 .c-circle {
@@ -33,7 +35,10 @@
 }
 
 .c-title {
+    flex-shrink: 0;
     margin-right: 5%;
+    font-size: 100%;
+    
 }
 
 .c-img {
@@ -46,4 +51,5 @@
         width: 40%;
         height: 20vh;
     }
+
 }

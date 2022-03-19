@@ -38,18 +38,18 @@ export const allInfo = {
         {
             id: 1,
             projectName: "Pack-On-Track",
-            projectImage: "",
-            projectLink: ""
+            projectImage: "dashboard-web.png",
+            projectLink: "https://github.com/JenBerlin/Pack-On-Track"
         },
         {
             id: 2,
             projectName: "Professionals Portal",
-            projectImage: "",
-            projectLink: ""
+            projectImage: "professionals-app.jpeg",
+            projectLink: "https://github.com/mohamedallam13/cc-professionals-network-app"
         },
         {
             id: 3,
-            projectName: "E-Commerce Backend",
+            projectName: "WithU Platfrom",
             projectImage: "",
             projectLink: ""
         }
@@ -107,7 +107,7 @@ export const allInfo = {
     contacts: [
         {
             type: "phone",
-            img: "telephone.jpeg",
+            img: "phone.png",
             text: "+49 170 4093 988",
             hyperlink: "tel:+491704093988"
         },

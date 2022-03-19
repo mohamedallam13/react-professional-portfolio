@@ -14,7 +14,7 @@ export default function Card({ title, img, link }) {
                 </div>
             </div>
 
-            <a href="" target="_blank" rel="noreferrer">
+            <a href={link} target="_blank">
                 <img src="" alt="" className="c-img" />
             </a>
         </div>

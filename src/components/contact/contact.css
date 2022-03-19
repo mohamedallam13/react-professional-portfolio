@@ -9,9 +9,11 @@
     background-color: var(--sub-font-color);
     position: absolute;
     top: 0px;
+    margin-top: 50px;
 }
 
 .ct-wrapper {
+    margin-top: 20px;
     padding-left: 50px;
     display: flex;
 }
@@ -29,24 +31,26 @@
 }
 
 .ct-title {
-    font-size: 60px;
+    font-size: 40px;
     width: 80%;
 }
 
-.ct-info-item {
+.ct-info-item a{
     display: flex;
     align-items: center;
-    margin: 25px 0px;
     font-weight: 300;
-    width: 70%;
+    width: 100%;
 }
 
 .ct-icon {
-    width: 50px;
+    width: 3vw;
     height: 100%;
     margin-right: 20px;
-    background-color: white;
-    border-radius: 10px;
+}
+
+.ct-info-item a {
+    text-decoration: none;
+    color: var(--main-font-color);
 }
 
 .ct-desc {
@@ -65,7 +69,6 @@ input {
     border-bottom: 1px solid black;
     margin: 10px 0px;
     font-size: 14px;
-    padding-left: 10px;
 }
 
 textarea {
@@ -88,6 +91,7 @@ button {
     .ct-wrapper {
         flex-direction: column;
         padding: 0px;
+        margin-top: 0px;
     }
 
     .ct-left {
@@ -95,7 +99,7 @@ button {
     }
 
     .ct-title {
-        font-size: 30px;
+        font-size: 6.5vw;
     }
 
     .ct-info-item {
@@ -110,6 +114,7 @@ button {
     form {
         width: 80%;
         margin-top: 0px;
+        padding-right: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -129,5 +134,18 @@ button {
     button {
         width: 90%;
         margin-top: 10px;
+    }
+
+    .ct-info {
+        display: flex;
+
+    }
+
+    .ct-info-item a p{
+        display: none;
+    }
+
+    .ct-icon {
+        width: 50px;
     }
 }
