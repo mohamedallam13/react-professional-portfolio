@@ -3,6 +3,7 @@ My Portfolio made with ReactJS
 
 
 ![Portfolio screenshot](./screenshots/screenshot1.png)
+![Portfolio screenshot](./screenshots/screenshot2.png)
 
 view it [here](https://mohamedallam13.github.io/react-professional-portfolio/)
 
