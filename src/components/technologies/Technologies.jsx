@@ -1,6 +1,10 @@
 import './technologies.css'
+import {
+    allInfo
+} from "../../allInfo";
 
-export default function Technologies({ technologies }) {
+const { technologies } = allInfo;
+export default function Technologies() {
     return (
         <div className="t" id="t">
             <div className="t-texts">

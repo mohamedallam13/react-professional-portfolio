@@ -34,6 +34,104 @@ export const allInfo = {
         }
     ],
     portfolioDesc: "With my wide skill set I can create any application that you might need for your business or your organization. I can also provide technical consultation.",
+    portfolio: {
+        webDevGas: {
+            id: "webDevGas",
+            title: "GAS Web Apps",
+            projects: [
+                {
+                    id: 1,
+                    projectName: "Look Up Tool",
+                    projectImage: "dashboard-web.png",
+                    projectLink: "https://github.com/JenBerlin/Pack-On-Track"
+                },
+                {
+                    id: 2,
+                    projectName: "Professionals Portal",
+                    projectImage: "professionals-app.jpeg",
+                    projectLink: "https://github.com/mohamedallam13/cc-professionals-network-app"
+                },
+                {
+                    id: 3,
+                    projectName: "Invoices/Credit Notes Tool",
+                    projectImage: "withU.png",
+                    projectLink: "https://github.com/Amir-Fard2025/WithU"
+                }
+            ]
+        },
+        fullStackDevelopment: {
+            id: "fullStackDevelopment",
+            title: "Full Stack Projects",
+            projects: [
+                {
+                    id: 1,
+                    projectName: "Pack-On-Track",
+                    projectImage: "dashboard-web.png",
+                    projectLink: "https://github.com/JenBerlin/Pack-On-Track"
+                },
+                {
+                    id: 2,
+                    projectName: "Pocket Card App",
+                    projectImage: "professionals-app.jpeg",
+                    projectLink: "https://github.com/mohamedallam13/cc-professionals-network-app"
+                },
+                {
+                    id: 3,
+                    projectName: "WithU Platfrom",
+                    projectImage: "withU.png",
+                    projectLink: "https://github.com/Amir-Fard2025/WithU"
+                }
+            ]
+        },
+        backendProjects: {
+            id: "backendProjects",
+            title: "Backend Projects",
+            projects: [
+                {
+                    id: 1,
+                    projectName: "E-Commerce Backend",
+                    projectImage: "dashboard-web.png",
+                    projectLink: "https://github.com/JenBerlin/Pack-On-Track"
+                },
+                {
+                    id: 2,
+                    projectName: "CMS Tech Blog",
+                    projectImage: "professionals-app.jpeg",
+                    projectLink: "https://github.com/mohamedallam13/cc-professionals-network-app"
+                },
+                {
+                    id: 3,
+                    projectName: "CLI SQL Employee Tracker",
+                    projectImage: "withU.png",
+                    projectLink: "https://github.com/Amir-Fard2025/WithU"
+                }
+            ]
+        },
+        googleAppsScript: {
+            id: "googleAppsScript",
+            title: "GAS Projects",
+            projects: [
+                {
+                    id: 1,
+                    projectName: "Auto Invoice Generation",
+                    projectImage: "dashboard-web.png",
+                    projectLink: "https://github.com/JenBerlin/Pack-On-Track"
+                },
+                {
+                    id: 2,
+                    projectName: "Feryal Slack Bot",
+                    projectImage: "professionals-app.jpeg",
+                    projectLink: "https://github.com/mohamedallam13/cc-professionals-network-app"
+                },
+                {
+                    id: 3,
+                    projectName: "Job Applying & Tracking Tool",
+                    projectImage: "withU.png",
+                    projectLink: "https://github.com/Amir-Fard2025/WithU"
+                }
+            ]
+        }
+    },
     devProjects: [
         {
             id: 1,
@@ -57,51 +155,62 @@ export const allInfo = {
     technologies: [
         {
             title: "JS6",
-            img: "js.png"
+            img: "js.png",
+            link: ""
         },
         {
             title: "HTML5",
-            img: "html5.png"
+            img: "html5.png",
+            link: ""
         },
         {
             title: "CSS3",
-            img: "CSS3.png"
+            img: "CSS3.png",
+            link: ""
         },
         {
             title: "NodeJS",
-            img: "nodejs.png"
+            img: "nodejs.png",
+            link: ""
         },
         {
             title: "ReactJS",
-            img: "react.png"
+            img: "react.png",
+            link: ""
         },
         {
             title: "MySQL",
-            img: "mysql.png"
+            img: "mysql.png",
         },
         {
             title: "MongoDB",
-            img: "mongodb.png"
+            img: "mongodb.png",
+            link: ""
         },
         {
             title: "GQL",
-            img: "gql.png"
+            img: "gql.png",
+            link: ""
         },
         {
             title: "Google Cloud Platform",
-            img: "gcp.png"
+            img: "gcp.png",
+            link: ""
         },
         {
             title: "Google Apps Script",
-            img: "gas.png"
+            img: "gas.png",
+            link: ""
         },
         {
             title: "GSuite",
-            img: "gsuite.png"
+            img: "gsuite.png",
+            link: ""
         },
         {
             title: "Oracle",
-            img: "oracle.png"
+            img: "oracle.png",
+            link: ""
         },
     ],
     contacts: [

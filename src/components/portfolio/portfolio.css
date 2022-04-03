@@ -25,10 +25,32 @@
     justify-content: space-between;
 }
 
+.p-texts ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.p-menu {
+    font-size: 14px;
+    margin-right: 50px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.p-menu.active {
+    background-color: var(--sub-font-color);
+    color: white;
+}
+
+
 @media screen and (max-width: 480px) {
 
 
-    .p-title{
+    .p-title {
         font-size: 35px;
     }
 
@@ -38,5 +60,17 @@
 
     .p-desc {
         display: none;
+    }
+
+    .portfolioList {
+        margin-right: 20px;
+    }
+
+    .p-menu{
+        margin: 0 20px;
+    }
+
+    .p-texts ul {
+        flex-wrap: wrap;
     }
 }

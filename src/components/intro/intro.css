@@ -84,14 +84,6 @@
     align-items: center;
 }
 
-.i-scroll {
-    stroke: var(--main-font-color);
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    bottom: 0px;
-}
-
 .i-img {
     width: 100%;
     height: 100%;

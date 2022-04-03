@@ -1,0 +1,7 @@
+.i-scroll {
+    stroke: var(--main-font-color);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+}

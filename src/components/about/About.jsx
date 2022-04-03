@@ -1,7 +1,14 @@
 import './about.css'
 import pp2 from '../../images/pp2.JPG'
 
-export default function About({ education, aboutCatch, aboutParagraph }) {
+
+import {
+    allInfo
+} from "../../allInfo";
+
+const { education, aboutCatch, aboutParagraph } = allInfo;
+
+export default function About() {
     return (
         <div className="a" id="a">
             <div className="a-left">

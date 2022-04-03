@@ -26,12 +26,12 @@ function App() {
     <div className="app"
       style={{
 
-        "--nav-bar-color": outrun?  "#920075" : "lightskyblue",
-        "--sub-font-color": outrun? "#F6019D" : "midnightblue",
-        "--main-font-color": outrun? "white" : "black",
-        "--main-tech-card-color": outrun? "#F9C80E" : "rgb(252, 220, 226)",
-        "--head-browser-color": outrun? "#333" : "rgb(243, 242, 242)",
-        "--toggle-button-color": outrun? "#541388" : "#08DEEA"
+        "--nav-bar-color": outrun ? "#920075" : "lightskyblue",
+        "--sub-font-color": outrun ? "#F6019D" : "midnightblue",
+        "--main-font-color": outrun ? "white" : "black",
+        "--main-tech-card-color": outrun ? "#F9C80E" : "rgb(252, 220, 226)",
+        "--head-browser-color": outrun ? "#333" : "rgb(243, 242, 242)",
+        "--toggle-button-color": outrun ? "#541388" : "#08DEEA"
       }}
     >
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
@@ -43,18 +43,11 @@ function App() {
           color: outrun && "white",
         }}
       >
-        <Intro name={allInfo.name}
-          intro={allInfo.intro}
-          professions={allInfo.professions}
-        />
-        <About education={allInfo.education}
-          aboutCatch={allInfo.aboutCatch}
-          aboutParagraph={allInfo.aboutParagraph}
-        />
-        <Portfolio portfolioDesc={allInfo.portfolioDesc}
-          devProjects={allInfo.devProjects} />
-        <Technologies technologies={allInfo.technologies} />
-        <Contact contacts={allInfo.contacts} />
+        <Intro />
+        <About />
+        <Portfolio />
+        <Technologies />
+        <Contact />
       </div>
       <Footer />
     </div>
