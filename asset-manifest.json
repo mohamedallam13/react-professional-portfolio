@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/react-professional-portfolio/static/css/main.affcff25.css",
-    "main.js": "/react-professional-portfolio/static/js/main.770ee97a.js",
+    "main.css": "/react-professional-portfolio/static/css/main.fd278ecb.css",
+    "main.js": "/react-professional-portfolio/static/js/main.cfdc061e.js",
     "static/media/pp2.JPG": "/react-professional-portfolio/static/media/pp2.66bf62ae6bf211927bd5.JPG",
     "static/media/outrunss.png": "/react-professional-portfolio/static/media/outrunss.84f7533e6cdea3403d53.png",
     "static/media/pp2.png": "/react-professional-portfolio/static/media/pp2.d8461e8708e988ff5c56.png",
     "static/media/pp1.png": "/react-professional-portfolio/static/media/pp1.8168527ef036b5cf2a06.png",
     "static/media/outrun.png": "/react-professional-portfolio/static/media/outrun.b40efcd8cf785027cb6b.png",
     "static/media/vapourwave.png": "/react-professional-portfolio/static/media/vapourwave.7a6187cb86eca7a8bb91.png",
+    "static/media/feryal-bot.png": "/react-professional-portfolio/static/media/feryal-bot.c368fab3216d51327f8d.png",
     "static/media/mail.png": "/react-professional-portfolio/static/media/mail.0689dfa05adfdf2b235f.png",
     "static/media/dashboard-web.png": "/react-professional-portfolio/static/media/dashboard-web.da642f1ee58171295f60.png",
     "static/media/react-icon.png": "/react-professional-portfolio/static/media/react-icon.50a27fa6b9ad8c963d15.png",
@@ -22,6 +23,8 @@
     "static/media/asth.png": "/react-professional-portfolio/static/media/asth.55a738c814ba2e5949ad.png",
     "static/media/retro.jpeg": "/react-professional-portfolio/static/media/retro.25c23f2cec25fc1d97ad.jpeg",
     "static/media/gcp.png": "/react-professional-portfolio/static/media/gcp.00ff3705da1780bbae3f.png",
+    "static/media/lookup-tool.png": "/react-professional-portfolio/static/media/lookup-tool.af9b2032966f83059558.png",
+    "static/media/invoice-tool.png": "/react-professional-portfolio/static/media/invoice-tool.ab05c5a387d3a079b1eb.png",
     "static/media/CSS3.png": "/react-professional-portfolio/static/media/CSS3.4e67641bb68b658d9b2b.png",
     "static/media/tuberlin.png": "/react-professional-portfolio/static/media/tuberlin.29755f93e9d0f4bd6730.png",
     "static/media/mysql.png": "/react-professional-portfolio/static/media/mysql.d8d91701469e905c694e.png",
@@ -37,11 +40,11 @@
     "static/media/mongodb.png": "/react-professional-portfolio/static/media/mongodb.fb4252f586834a599462.png",
     "static/media/html5.png": "/react-professional-portfolio/static/media/html5.d9d05b93909e56f6a45f.png",
     "index.html": "/react-professional-portfolio/index.html",
-    "main.affcff25.css.map": "/react-professional-portfolio/static/css/main.affcff25.css.map",
-    "main.770ee97a.js.map": "/react-professional-portfolio/static/js/main.770ee97a.js.map"
+    "main.fd278ecb.css.map": "/react-professional-portfolio/static/css/main.fd278ecb.css.map",
+    "main.cfdc061e.js.map": "/react-professional-portfolio/static/js/main.cfdc061e.js.map"
   },
   "entrypoints": [
-    "static/css/main.affcff25.css",
-    "static/js/main.770ee97a.js"
+    "static/css/main.fd278ecb.css",
+    "static/js/main.cfdc061e.js"
   ]
 }
