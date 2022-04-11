@@ -42,8 +42,8 @@ export const allInfo = {
                 {
                     id: 1,
                     projectName: "Look Up Tool",
-                    projectImage: "dashboard-web.png",
-                    projectLink: "https://github.com/JenBerlin/Pack-On-Track"
+                    projectImage: "lookup-tool.png",
+                    projectLink: "https://github.com/mohamedallam13/look-up-tool"
                 },
                 {
                     id: 2,
@@ -54,8 +54,8 @@ export const allInfo = {
                 {
                     id: 3,
                     projectName: "Invoices/Credit Notes Tool",
-                    projectImage: "withU.png",
-                    projectLink: "https://github.com/Amir-Fard2025/WithU"
+                    projectImage: "invoice-tool.png",
+                    projectLink: "https://github.com/mohamedallam13/gas-invoices-tool"
                 }
             ]
         },
@@ -120,8 +120,8 @@ export const allInfo = {
                 {
                     id: 2,
                     projectName: "Feryal Slack Bot",
-                    projectImage: "professionals-app.jpeg",
-                    projectLink: "https://github.com/mohamedallam13/cc-professionals-network-app"
+                    projectImage: "feryal-bot.png",
+                    projectLink: "https://github.com/mohamedallam13/feryal-slack-bot"
                 },
                 {
                     id: 3,
@@ -156,61 +156,62 @@ export const allInfo = {
         {
             title: "JS6",
             img: "js.png",
-            link: ""
+            link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
         {
             title: "HTML5",
             img: "html5.png",
-            link: ""
+            link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
         {
             title: "CSS3",
             img: "CSS3.png",
-            link: ""
+            link: "https://developer.mozilla.org/en-US/docs/Web/css"
         },
         {
             title: "NodeJS",
             img: "nodejs.png",
-            link: ""
+            link: "https://nodejs.org/en/"
         },
         {
             title: "ReactJS",
             img: "react.png",
-            link: ""
+            link: "https://reactjs.org/"
         },
         {
             title: "MySQL",
             img: "mysql.png",
+            link:"https://www.mysql.com/"
         },
         {
             title: "MongoDB",
             img: "mongodb.png",
-            link: ""
+            link: "https://www.mongodb.com/"
         },
         {
             title: "GQL",
             img: "gql.png",
-            link: ""
+            link: "https://graphql.org/"
         },
         {
             title: "Google Cloud Platform",
             img: "gcp.png",
-            link: ""
+            link: "https://cloud.google.com/"
         },
         {
             title: "Google Apps Script",
             img: "gas.png",
-            link: ""
+            link: "https://developers.google.com/apps-script"
         },
         {
             title: "GSuite",
             img: "gsuite.png",
-            link: ""
+            link: "https://workspace.google.com/"
         },
         {
             title: "Oracle",
             img: "oracle.png",
-            link: ""
+            link: "https://www.oracle.com/database/"
         },
     ],
     contacts: [
@@ -242,7 +243,7 @@ export const allInfo = {
             type: "resume",
             img: "cv.png",
             text: "Resume",
-            hyperlink: "https://drive.google.com/file/d/1-v1ugVKR02TGnusrZaU-TOxLEFd6xUNL/view?usp=sharing"
+            hyperlink: "https://drive.google.com/file/d/1ycidbQnteqzNLD8XK3gYtMblbGRNtCcW/view?usp=sharing"
         }
     ]
 }

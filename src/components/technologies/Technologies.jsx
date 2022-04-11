@@ -22,7 +22,7 @@ export default function Technologies() {
                         </div> */}
 
 
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href={technology.link || ""} target="_blank" rel="noreferrer">
                             <img src={require("../../images/" + technology.img)} alt="" className="t-card-img" />
                         </a>
                     </div>

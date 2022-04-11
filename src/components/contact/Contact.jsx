@@ -98,7 +98,7 @@ export default function Contact() {
                     <div className="ct-info">
                         {contacts.map((contact) => (
                             <div className="ct-info-item">
-                                <a href={contact.hyperlink} className="ct-link">
+                                <a href={contact.hyperlink} className="ct-link" target="_blank">
                                     <img src={require("../../images/" + contact.img)} alt="" className="ct-icon" />
                                     <p>{contact.text}</p>
                                 </a>
