@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-professional-portfolio/static/css/main.fd278ecb.css",
-    "main.js": "/react-professional-portfolio/static/js/main.a14888af.js",
+    "main.js": "/react-professional-portfolio/static/js/main.2c2b5d3a.js",
     "static/media/pp2.JPG": "/react-professional-portfolio/static/media/pp2.66bf62ae6bf211927bd5.JPG",
     "static/media/outrunss.png": "/react-professional-portfolio/static/media/outrunss.84f7533e6cdea3403d53.png",
     "static/media/pp2.png": "/react-professional-portfolio/static/media/pp2.d8461e8708e988ff5c56.png",
@@ -10,17 +10,22 @@
     "static/media/vapourwave.png": "/react-professional-portfolio/static/media/vapourwave.7a6187cb86eca7a8bb91.png",
     "static/media/feryal-bot.png": "/react-professional-portfolio/static/media/feryal-bot.c368fab3216d51327f8d.png",
     "static/media/mail.png": "/react-professional-portfolio/static/media/mail.0689dfa05adfdf2b235f.png",
+    "static/media/cms.png": "/react-professional-portfolio/static/media/cms.eff3474917a5c32ec6b9.png",
     "static/media/dashboard-web.png": "/react-professional-portfolio/static/media/dashboard-web.da642f1ee58171295f60.png",
+    "static/media/auto job apply application.png": "/react-professional-portfolio/static/media/auto job apply application.78390b4be4b7267a1e47.png",
     "static/media/react-icon.png": "/react-professional-portfolio/static/media/react-icon.50a27fa6b9ad8c963d15.png",
     "static/media/outrun-sun.png": "/react-professional-portfolio/static/media/outrun-sun.39855dfb6af9580824e7.png",
     "static/media/withU.png": "/react-professional-portfolio/static/media/withU.c6c78402c499aeadb9f2.png",
     "static/media/phone.png": "/react-professional-portfolio/static/media/phone.73775e42f5027be42f9c.png",
+    "static/media/auto-invoice.png": "/react-professional-portfolio/static/media/auto-invoice.1183596465e2394555b4.png",
     "static/media/gsuite.png": "/react-professional-portfolio/static/media/gsuite.acb549f12ccb2d0af8d5.png",
     "static/media/react.png": "/react-professional-portfolio/static/media/react.6ef7531429fa78c6182f.png",
     "static/media/gql.png": "/react-professional-portfolio/static/media/gql.91ed35db579208e8ad36.png",
     "static/media/professionals-app.jpeg": "/react-professional-portfolio/static/media/professionals-app.d25a2f3a4a336315a305.jpeg",
+    "static/media/e-commerce-backend.png": "/react-professional-portfolio/static/media/e-commerce-backend.c2d9112b5a94fad813a8.png",
     "static/media/auc.png": "/react-professional-portfolio/static/media/auc.0b323c72a3244c67c079.png",
     "static/media/asth.png": "/react-professional-portfolio/static/media/asth.55a738c814ba2e5949ad.png",
+    "static/media/pocketcard-app.jpeg": "/react-professional-portfolio/static/media/pocketcard-app.d2d327767786c7ed8f77.jpeg",
     "static/media/retro.jpeg": "/react-professional-portfolio/static/media/retro.25c23f2cec25fc1d97ad.jpeg",
     "static/media/gcp.png": "/react-professional-portfolio/static/media/gcp.00ff3705da1780bbae3f.png",
     "static/media/lookup-tool.png": "/react-professional-portfolio/static/media/lookup-tool.af9b2032966f83059558.png",
@@ -29,6 +34,7 @@
     "static/media/tuberlin.png": "/react-professional-portfolio/static/media/tuberlin.29755f93e9d0f4bd6730.png",
     "static/media/mysql.png": "/react-professional-portfolio/static/media/mysql.d8d91701469e905c694e.png",
     "static/media/cv.png": "/react-professional-portfolio/static/media/cv.41fc21f177f39586bfeb.png",
+    "static/media/cli-command.png": "/react-professional-portfolio/static/media/cli-command.a32df4d19c8ea9facf57.png",
     "static/media/linkedin.png": "/react-professional-portfolio/static/media/linkedin.4518cd42ca2ab65d6c8a.png",
     "static/media/gas.png": "/react-professional-portfolio/static/media/gas.c50a4ef7b0df138b8724.png",
     "static/media/mern.jpeg": "/react-professional-portfolio/static/media/mern.9621ee35acf7525b12cc.jpeg",
@@ -41,10 +47,10 @@
     "static/media/html5.png": "/react-professional-portfolio/static/media/html5.d9d05b93909e56f6a45f.png",
     "index.html": "/react-professional-portfolio/index.html",
     "main.fd278ecb.css.map": "/react-professional-portfolio/static/css/main.fd278ecb.css.map",
-    "main.a14888af.js.map": "/react-professional-portfolio/static/js/main.a14888af.js.map"
+    "main.2c2b5d3a.js.map": "/react-professional-portfolio/static/js/main.2c2b5d3a.js.map"
   },
   "entrypoints": [
     "static/css/main.fd278ecb.css",
-    "static/js/main.a14888af.js"
+    "static/js/main.2c2b5d3a.js"
   ]
 }
