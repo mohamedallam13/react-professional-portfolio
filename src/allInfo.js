@@ -72,8 +72,8 @@ export const allInfo = {
                 {
                     id: 2,
                     projectName: "Pocket Card App",
-                    projectImage: "professionals-app.jpeg",
-                    projectLink: "https://github.com/mohamedallam13/cc-professionals-network-app"
+                    projectImage: "pocketcard-app.jpeg",
+                    projectLink: "https://github.com/alexanderpuschkinberlin/Pocket-Card-App"
                 },
                 {
                     id: 3,
@@ -90,20 +90,20 @@ export const allInfo = {
                 {
                     id: 1,
                     projectName: "E-Commerce Backend",
-                    projectImage: "dashboard-web.png",
-                    projectLink: "https://github.com/JenBerlin/Pack-On-Track"
+                    projectImage: "e-commerce-backend.png",
+                    projectLink: "https://github.com/mohamedallam13/the-e-commerce-backend"
                 },
                 {
                     id: 2,
                     projectName: "CMS Tech Blog",
-                    projectImage: "professionals-app.jpeg",
-                    projectLink: "https://github.com/mohamedallam13/cc-professionals-network-app"
+                    projectImage: "cms.png",
+                    projectLink: "https://github.com/mohamedallam13/cms-style-tech-blog"
                 },
                 {
                     id: 3,
                     projectName: "CLI SQL Employee Tracker",
-                    projectImage: "withU.png",
-                    projectLink: "https://github.com/Amir-Fard2025/WithU"
+                    projectImage: "cli-command.png",
+                    projectLink: "https://github.com/mohamedallam13/fantabulous-cli-sql-employee-tracker"
                 }
             ]
         },
@@ -114,8 +114,8 @@ export const allInfo = {
                 {
                     id: 1,
                     projectName: "Auto Invoice Generation",
-                    projectImage: "dashboard-web.png",
-                    projectLink: "https://github.com/JenBerlin/Pack-On-Track"
+                    projectImage: "auto-invoice.png",
+                    projectLink: "https://https://github.com/mohamedallam13/gas-auto-invoicing-script"
                 },
                 {
                     id: 2,
@@ -126,8 +126,8 @@ export const allInfo = {
                 {
                     id: 3,
                     projectName: "Job Applying & Tracking Tool",
-                    projectImage: "withU.png",
-                    projectLink: "https://github.com/Amir-Fard2025/WithU"
+                    projectImage: "auto job apply application.png",
+                    projectLink: "hhttps://github.com/mohamedallam13/gas-jobs-application-tracking"
                 }
             ]
         }
